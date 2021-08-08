@@ -1,0 +1,8 @@
+CREATE DATABASE db_example;
+USE db_example;
+CREATE TABLE user (
+  id1 VARCHAR(20) NOT NULL,
+  id2 VARCHAR(20) NOT NULL,
+  userID VARCHAR(36) NOT NULL,
+  PRIMARY KEY (id1, id2)
+);
